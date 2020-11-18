@@ -30,8 +30,3 @@ class Solution:
         else:
             sum += RomanDigits[romanDigitsList[-1]] - isBad
         return sum
-
-
-a = Solution()
-
-print(a.romanToInt('ID'))
